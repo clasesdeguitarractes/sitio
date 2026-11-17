@@ -1,0 +1,347 @@
+{
+  "por_ancho": {
+    "320": {
+      "overflowX": true,
+      "h1": 1,
+      "jumps": 0,
+      "headingsOverflow": [
+        "Clases de guitarra en Corrientes"
+      ],
+      "tapLt44": [],
+      "fontsOk": true,
+      "inlineStyleAttrs": 0,
+      "scrollBehavior": "smooth",
+      "csp": [],
+      "status": 200,
+      "errores_consola": [],
+      "requests_fallidos": []
+    },
+    "360": {
+      "overflowX": false,
+      "h1": 1,
+      "jumps": 0,
+      "headingsOverflow": [],
+      "tapLt44": [],
+      "fontsOk": true,
+      "inlineStyleAttrs": 0,
+      "scrollBehavior": "smooth",
+      "csp": [],
+      "status": 200,
+      "errores_consola": [],
+      "requests_fallidos": []
+    },
+    "375": {
+      "overflowX": false,
+      "h1": 1,
+      "jumps": 0,
+      "headingsOverflow": [],
+      "tapLt44": [],
+      "fontsOk": true,
+      "inlineStyleAttrs": 0,
+      "scrollBehavior": "smooth",
+      "csp": [],
+      "status": 200,
+      "errores_consola": [],
+      "requests_fallidos": []
+    },
+    "768": {
+      "overflowX": false,
+      "h1": 1,
+      "jumps": 0,
+      "headingsOverflow": [],
+      "tapLt44": [],
+      "fontsOk": true,
+      "inlineStyleAttrs": 0,
+      "scrollBehavior": "smooth",
+      "csp": [],
+      "status": 200,
+      "errores_consola": [],
+      "requests_fallidos": []
+    },
+    "1280": {
+      "overflowX": false,
+      "h1": 1,
+      "jumps": 0,
+      "headingsOverflow": [],
+      "tapLt44": [],
+      "fontsOk": true,
+      "inlineStyleAttrs": 0,
+      "scrollBehavior": "smooth",
+      "csp": [],
+      "status": 200,
+      "errores_consola": [],
+      "requests_fallidos": []
+    }
+  },
+  "sin_js": {
+    "h1": "CLASES DE GUITARRA EN CORRIENTES",
+    "jsonld": 1,
+    "canonical": "https://clases-guitarra.example/",
+    "og_url": "https://clases-guitarra.example/"
+  },
+  "reduced_motion_scroll": "auto",
+  "pagina_404": {
+    "status": 404,
+    "h1": "NO ENCONTRAMOS ESA PÁGINA",
+    "overflowX": false,
+    "csp": []
+  },
+  "cabeceras": {
+    "/": {
+      "Content-Type": "text/html; charset=utf-8",
+      "Content-Security-Policy": "default-src 'none'; style-src 'self'; font-src 'self'; img-src 'self' data:; base-uri 'none'; form-action 'none'; frame-ancestors 'none'",
+      "X-Content-Type-Options": "nosniff",
+      "Referrer-Policy": "strict-origin-when-cross-origin",
+      "Permissions-Policy": "camera=(), microphone=(), geolocation=()",
+      "X-Frame-Options": "DENY"
+    },
+    "/robots.txt": {
+      "Content-Type": "text/plain; charset=utf-8",
+      "Content-Security-Policy": "default-src 'none'; style-src 'self'; font-src 'self'; img-src 'self' data:; base-uri 'none'; form-action 'none'; frame-ancestors 'none'",
+      "X-Content-Type-Options": "nosniff",
+      "Referrer-Policy": "strict-origin-when-cross-origin",
+      "Permissions-Policy": "camera=(), microphone=(), geolocation=()",
+      "X-Frame-Options": "DENY",
+      "body": "User-agent: *\nAllow: /\n\nSitemap: https://clases-guitarra.example/sitemap.xml\n"
+    },
+    "/sitemap.xml": {
+      "Content-Type": "application/xml",
+      "Content-Security-Policy": "default-src 'none'; style-src 'self'; font-src 'self'; img-src 'self' data:; base-uri 'none'; form-action 'none'; frame-ancestors 'none'",
+      "X-Content-Type-Options": "nosniff",
+      "Referrer-Policy": "strict-origin-when-cross-origin",
+      "Permissions-Policy": "camera=(), microphone=(), geolocation=()",
+      "X-Frame-Options": "DENY",
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <url>\n    <loc>https://clases-guitarra.example/</loc>\n  </url>\n</urlset>\n"
+    },
+    "/fonts/archivo-latin-400-normal.woff2": {
+      "Content-Type": "font/woff2",
+      "Content-Security-Policy": "default-src 'none'; style-src 'self'; font-src 'self'; img-src 'self' data:; base-uri 'none'; form-action 'none'; frame-ancestors 'none'",
+      "X-Content-Type-Options": "nosniff",
+      "Referrer-Policy": "strict-origin-when-cross-origin",
+      "Permissions-Policy": "camera=(), microphone=(), geolocation=()",
+      "X-Frame-Options": "DENY",
+      "Cache-Control": "public, max-age=31536000, immutable"
+    },
+    "/styles.css?v=20261117": {
+      "Content-Type": "text/css; charset=utf-8",
+      "Content-Security-Policy": "default-src 'none'; style-src 'self'; font-src 'self'; img-src 'self' data:; base-uri 'none'; form-action 'none'; frame-ancestors 'none'",
+      "X-Content-Type-Options": "nosniff",
+      "Referrer-Policy": "strict-origin-when-cross-origin",
+      "Permissions-Policy": "camera=(), microphone=(), geolocation=()",
+      "X-Frame-Options": "DENY"
+    }
+  },
+  "requests_a_otros_hosts": [],
+  "jsonld_ok": true,
+  "terminos": [
+    [
+      "knowsAbout",
+      "Guitarra",
+      true
+    ],
+    [
+      "knowsAbout",
+      "Bajo",
+      true
+    ],
+    [
+      "knowsAbout",
+      "Ukelele",
+      true
+    ],
+    [
+      "knowsAbout",
+      "Teoría musical",
+      true
+    ],
+    [
+      "knowsAbout",
+      "Composición musical",
+      true
+    ],
+    [
+      "knowsAbout",
+      "Composición de canciones",
+      true
+    ],
+    [
+      "keywords",
+      "clases de guitarra",
+      true
+    ],
+    [
+      "keywords",
+      "clases de bajo",
+      true
+    ],
+    [
+      "keywords",
+      "clases de ukelele",
+      true
+    ],
+    [
+      "keywords",
+      "teoría musical",
+      true
+    ],
+    [
+      "keywords",
+      "composición musical",
+      true
+    ],
+    [
+      "keywords",
+      "composición de canciones",
+      true
+    ],
+    [
+      "keywords",
+      "clases individuales",
+      true
+    ],
+    [
+      "keywords",
+      "clases grupales",
+      true
+    ],
+    [
+      "keywords",
+      "Corrientes",
+      true
+    ],
+    [
+      "hasOfferCatalog",
+      "Clases de guitarra",
+      true
+    ],
+    [
+      "hasOfferCatalog",
+      "Clases de bajo",
+      true
+    ],
+    [
+      "hasOfferCatalog",
+      "Clases de ukelele",
+      true
+    ],
+    [
+      "hasOfferCatalog",
+      "Teoría musical",
+      true
+    ],
+    [
+      "hasOfferCatalog",
+      "Composición musical",
+      true
+    ],
+    [
+      "hasOfferCatalog",
+      "Composición de canciones",
+      true
+    ],
+    [
+      "hasOfferCatalog",
+      "Clases individuales",
+      true
+    ],
+    [
+      "hasOfferCatalog",
+      "Clases grupales",
+      true
+    ],
+    [
+      "jobTitle",
+      "Profesor de guitarra",
+      true
+    ],
+    [
+      "founder",
+      "Gonzalo Corrales",
+      true
+    ],
+    [
+      "areaServed",
+      "Corrientes",
+      true
+    ],
+    [
+      "name",
+      "Clases de Guitarra Corrientes",
+      true
+    ],
+    [
+      "description",
+      "guitarra, bajo, ukelele, teoría y composición musical",
+      true
+    ],
+    [
+      "description",
+      "Corrientes Capital",
+      true
+    ],
+    [
+      "description",
+      "barrio Camba Cuá",
+      true
+    ],
+    [
+      "description",
+      "individuales",
+      true
+    ],
+    [
+      "description",
+      "grupales",
+      true
+    ],
+    [
+      "description",
+      "todas las edades",
+      true
+    ]
+  ],
+  "sin_campos_prohibidos": true,
+  "desc_len": 152,
+  "desc_igual_jsonld": true,
+  "diferencia_pixeles": {
+    "375": {
+      "tam_simulada": [
+        375,
+        6043
+      ],
+      "tam_despues": [
+        375,
+        6043
+      ],
+      "pixeles_distintos_pct": 0.0,
+      "distintos_gt32_pct": 0.0,
+      "bbox": null
+    },
+    "768": {
+      "tam_simulada": [
+        768,
+        3963
+      ],
+      "tam_despues": [
+        768,
+        3963
+      ],
+      "pixeles_distintos_pct": 0.0,
+      "distintos_gt32_pct": 0.0,
+      "bbox": null
+    },
+    "1280": {
+      "tam_simulada": [
+        1280,
+        3744
+      ],
+      "tam_despues": [
+        1280,
+        3744
+      ],
+      "pixeles_distintos_pct": 0.0,
+      "distintos_gt32_pct": 0.0,
+      "bbox": null
+    }
+  }
+}
