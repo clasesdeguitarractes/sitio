@@ -1,0 +1,9 @@
+{
+  "name": "clases-guitarra-corrientes",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Sitio estático de Clases de Guitarra en Corrientes",
+  "scripts": {
+    "build": "node build.mjs"
+  }
+}

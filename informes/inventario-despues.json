@@ -1,0 +1,241 @@
+{
+  "archivo": "/home/claude/clases-guitarra/dist/index.html",
+  "lang": "es",
+  "title": "Clases de Guitarra, Bajo y Ukelele en Corrientes",
+  "title_len": 48,
+  "meta_description": "Clases de guitarra, bajo, ukelele, teoría y composición musical en Corrientes Capital, barrio Camba Cuá. Individuales o grupales, para todas las edades.",
+  "meta_description_len": 152,
+  "viewport": "width=device-width, initial-scale=1",
+  "robots_meta": null,
+  "canonical": "https://clases-guitarra.example/",
+  "og": {
+    "og:type": "website",
+    "og:locale": "es_AR",
+    "og:site_name": "Clases de Guitarra Corrientes",
+    "og:title": "Clases de Guitarra, Bajo y Ukelele en Corrientes",
+    "og:description": "Clases de guitarra, bajo, ukelele, teoría y composición musical en Corrientes Capital, barrio Camba Cuá. Individuales o grupales, para todas las edades.",
+    "og:url": "https://clases-guitarra.example/"
+  },
+  "twitter": {
+    "twitter:card": "summary",
+    "twitter:title": "Clases de Guitarra, Bajo y Ukelele en Corrientes",
+    "twitter:description": "Clases de guitarra, bajo, ukelele, teoría y composición musical en Corrientes Capital, barrio Camba Cuá. Individuales o grupales, para todas las edades."
+  },
+  "jsonld_blocks": 1,
+  "headings": [
+    {
+      "nivel": 1,
+      "texto": "Clases de guitarra en Corrientes"
+    },
+    {
+      "nivel": 2,
+      "texto": "Clases de música: elegí tu camino"
+    },
+    {
+      "nivel": 3,
+      "texto": "Clases de guitarra"
+    },
+    {
+      "nivel": 3,
+      "texto": "Clases de bajo"
+    },
+    {
+      "nivel": 3,
+      "texto": "Clases de ukelele"
+    },
+    {
+      "nivel": 3,
+      "texto": "Teoría musical"
+    },
+    {
+      "nivel": 3,
+      "texto": "Composición musical"
+    },
+    {
+      "nivel": 3,
+      "texto": "Composición de canciones"
+    },
+    {
+      "nivel": 2,
+      "texto": "A tu ritmo, solo o en grupo"
+    },
+    {
+      "nivel": 3,
+      "texto": "Clases individuales"
+    },
+    {
+      "nivel": 3,
+      "texto": "Clases grupales"
+    },
+    {
+      "nivel": 3,
+      "texto": "Todas las edades"
+    },
+    {
+      "nivel": 2,
+      "texto": "Gonzalo Corrales"
+    },
+    {
+      "nivel": 2,
+      "texto": "Reservá tu lugar"
+    }
+  ],
+  "h1_count": 1,
+  "heading_jumps": [],
+  "links": [
+    {
+      "href": "#inicio",
+      "texto": "Clases de Guitarra Corrientes",
+      "aria-label": null
+    },
+    {
+      "href": "#clases",
+      "texto": "Clases",
+      "aria-label": null
+    },
+    {
+      "href": "#modalidades",
+      "texto": "Modalidades",
+      "aria-label": null
+    },
+    {
+      "href": "#contacto",
+      "texto": "Contacto",
+      "aria-label": null
+    },
+    {
+      "href": "https://wa.me/5493794870266",
+      "texto": "WhatsApp",
+      "aria-label": null
+    },
+    {
+      "href": "https://wa.me/5493794870266?text=Hola!%20Quiero%20info%20sobre%20las%20clases",
+      "texto": "Escribinos por WhatsApp",
+      "aria-label": null
+    },
+    {
+      "href": "#clases",
+      "texto": "Ver las clases",
+      "aria-label": null
+    },
+    {
+      "href": "https://wa.me/5493794870266?text=Hola!%20Quiero%20info%20sobre%20las%20clases",
+      "texto": "Escribir por WhatsApp",
+      "aria-label": null
+    },
+    {
+      "href": "tel:+5493794870266",
+      "texto": "Llamar al 379 487-0266",
+      "aria-label": null
+    }
+  ],
+  "anchors_rotas": [],
+  "img_total": 0,
+  "img_sin_alt": 0,
+  "svg_decorativos": 1,
+  "svg_total": 1,
+  "style_attr_count": 0,
+  "style_attr_distintos": 0,
+  "placeholders_plantilla": 0,
+  "css_externo": [],
+  "js_src": [],
+  "render_cliente": false,
+  "landmarks": {
+    "header": 1,
+    "nav": 1,
+    "main": 1,
+    "footer": 1,
+    "address": 1,
+    "section": 5
+  },
+  "tags_desbalanceados": [],
+  "texto_visible_chars": 2758,
+  "texto_bracket_placeholders": [],
+  "terminos": {
+    "clases de guitarra en Corrientes": true,
+    "profesor de guitarra": true,
+    "clases de bajo": true,
+    "clases de ukelele": true,
+    "clases de música": true,
+    "teoría musical": true,
+    "composición musical": true,
+    "composición de canciones": true,
+    "clases individuales": true,
+    "clases grupales": true,
+    "todas las edades": true,
+    "niños": true,
+    "Corrientes Capital": true,
+    "Camba Cuá": true,
+    "Gonzalo Corrales": true
+  },
+  "checks": [
+    {
+      "estado": "PASS",
+      "detalle": "html lang = es"
+    },
+    {
+      "estado": "PASS",
+      "detalle": "meta viewport presente"
+    },
+    {
+      "estado": "PASS",
+      "detalle": "title 48 car.: 'Clases de Guitarra, Bajo y Ukelele en Corrientes'"
+    },
+    {
+      "estado": "PASS",
+      "detalle": "meta description 152 car."
+    },
+    {
+      "estado": "PASS",
+      "detalle": "canonical: https://clases-guitarra.example/"
+    },
+    {
+      "estado": "PASS",
+      "detalle": "og:* (6 etiquetas)"
+    },
+    {
+      "estado": "PASS",
+      "detalle": "twitter:* (3 etiquetas)"
+    },
+    {
+      "estado": "PASS",
+      "detalle": "JSON-LD: 1 bloque(s)"
+    },
+    {
+      "estado": "PASS",
+      "detalle": "H1: 1"
+    },
+    {
+      "estado": "PASS",
+      "detalle": "jerarquía de encabezados sin saltos"
+    },
+    {
+      "estado": "PASS",
+      "detalle": "anclas internas rotas: ninguna"
+    },
+    {
+      "estado": "PASS",
+      "detalle": "etiquetas balanceadas"
+    },
+    {
+      "estado": "PASS",
+      "detalle": "landmark <main>: 1"
+    },
+    {
+      "estado": "PASS",
+      "detalle": "HTML estático"
+    },
+    {
+      "estado": "PASS",
+      "detalle": "CSS externo: []"
+    },
+    {
+      "estado": "PASS",
+      "detalle": "style=\"\" en línea: 0 (0 distintos)"
+    },
+    {
+      "estado": "PASS",
+      "detalle": "placeholders [..] visibles: []"
+    }
+  ]
+}

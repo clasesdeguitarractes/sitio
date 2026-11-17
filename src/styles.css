@@ -1,0 +1,388 @@
+/* Clases de Guitarra en Corrientes — estilos.
+   Reemplaza los style="" en línea del diseño original (Main.dc.html) para poder
+   usar una CSP estricta (style-src 'self'). Mismo aspecto que el diseño. */
+
+@font-face {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/archivo-latin-400-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/archivo-latin-500-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/archivo-latin-700-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Archivo Black";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/archivo-black-latin-400-normal.woff2") format("woff2");
+}
+
+:root {
+  --accent: #F5B83D;
+  --ink: #101418;
+  --paper: #F4F1EA;
+  --line: #2A323C;
+  --card: #1A2027;
+  --muted: #C3C9D0;
+  --display: "Archivo Black", sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+
+body {
+  margin: 0;
+  font-family: "Archivo", system-ui, sans-serif;
+  background: var(--ink);
+  color: var(--paper);
+  line-height: 1.55;
+  font-size: 1.0625rem;
+}
+
+a { color: var(--paper); }
+a:hover { color: var(--accent); }
+
+/* ---------- Encabezado ---------- */
+.site-header { border-bottom: 1px solid var(--line); }
+.header-inner {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 18px 24px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.logo,
+.logo:hover {
+  font-family: var(--display);
+  font-size: 1.05rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--paper);
+  padding: 9px 0; /* objetivo táctil de 44 px... */
+  margin: -9px 0; /* ...sin cambiar el alto del encabezado */
+}
+.logo span { color: var(--accent); }
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 24px;
+}
+.nav-link {
+  text-decoration: none;
+  padding: 12px 0;
+  font-weight: 500;
+}
+
+/* ---------- Botones ---------- */
+.btn-nav,
+.btn-accent,
+.btn-outline,
+.btn-dark,
+.btn-outline-dark {
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 999px;
+}
+.btn-nav,
+.btn-nav:hover {
+  background: var(--accent);
+  color: var(--ink);
+  padding: 12px 20px;
+}
+.btn-accent,
+.btn-accent:hover {
+  background: var(--accent);
+  color: var(--ink);
+  font-size: 1.1rem;
+  padding: 16px 28px;
+}
+.btn-outline {
+  border: 2px solid var(--paper);
+  font-size: 1.1rem;
+  padding: 14px 28px;
+}
+.btn-dark,
+.btn-dark:hover {
+  background: var(--ink);
+  color: var(--paper);
+  font-size: 1.1rem;
+  padding: 16px 28px;
+}
+.btn-outline-dark,
+.btn-outline-dark:hover {
+  border: 2px solid var(--ink);
+  color: var(--ink);
+  font-size: 1.1rem;
+  padding: 14px 28px;
+}
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+/* ---------- Estructura común ---------- */
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: clamp(56px, 8vw, 104px) 24px;
+}
+.container-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 48px;
+}
+.container-grid-end { align-items: end; }
+.section { border-top: 1px solid var(--line); }
+.section-light { background: var(--paper); color: var(--ink); }
+.section-accent { background: var(--accent); color: var(--ink); }
+
+.eyebrow {
+  margin: 0 0 12px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  color: var(--accent);
+}
+.eyebrow-muted { color: #4A525C; }
+.eyebrow-plain { color: inherit; }
+
+.h2 {
+  margin: 0 0 48px;
+  font-family: var(--display);
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  line-height: 1;
+  max-width: 16ch;
+}
+.h2-sm {
+  margin: 0 0 20px;
+  font-family: var(--display);
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  line-height: 1;
+}
+.h2-cta {
+  margin: 0 0 20px;
+  font-family: var(--display);
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: clamp(2.2rem, 6vw, 4.2rem);
+  line-height: 0.98;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+/* ---------- Hero ---------- */
+.hero { position: relative; overflow: hidden; }
+.hero-art {
+  position: absolute;
+  right: -120px;
+  top: -40px;
+  width: 640px;
+  height: 640px;
+  opacity: 0.9;
+}
+.hero-inner {
+  position: relative;
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: clamp(56px, 9vw, 120px) 24px clamp(56px, 8vw, 104px);
+}
+.hero .eyebrow { margin-bottom: 20px; }
+.hero-title {
+  margin: 0;
+  font-family: var(--display);
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: clamp(2.6rem, 8vw, 6rem);
+  line-height: 0.95;
+  letter-spacing: -0.01em;
+  max-width: 11ch;
+}
+.hero-lead {
+  margin: 28px 0 0;
+  font-size: clamp(1.1rem, 2vw, 1.35rem);
+  max-width: 34rem;
+  color: #D5D9DE;
+}
+.hero-actions { margin-top: 36px; }
+.chips {
+  list-style: none;
+  margin: 48px 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.chips li {
+  background: var(--card);
+  border: 1px solid var(--line);
+  padding: 10px 16px;
+  border-radius: 999px;
+  font-weight: 500;
+}
+
+/* ---------- Clases (tarjetas) ---------- */
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.card-num {
+  font-family: var(--display);
+  font-size: 0.95rem;
+  color: var(--accent);
+}
+.card-title {
+  margin: 0;
+  font-family: var(--display);
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  line-height: 1.1;
+}
+.card-text { margin: 0; color: var(--muted); }
+
+/* ---------- Modalidades ---------- */
+.mode {
+  border-radius: 16px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.mode-dark { background: var(--ink); color: var(--paper); }
+.mode-accent { background: var(--accent); color: var(--ink); }
+.mode-white { background: #FFFFFF; border: 2px solid var(--ink); }
+.mode-title {
+  margin: 0;
+  font-family: var(--display);
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  line-height: 1.1;
+}
+.mode-text { margin: 0; }
+.mode-dark .mode-text { color: var(--muted); }
+.mode-white .mode-text { color: #2E353D; }
+
+/* ---------- Quién da las clases ---------- */
+.bio { margin: 0; color: var(--muted); }
+.facts {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+.fact {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--line);
+}
+.fact:last-child { border-bottom: 0; }
+.fact dt { font-weight: 700; }
+.fact dd {
+  margin: 0;
+  color: var(--muted);
+  text-align: right;
+}
+
+/* ---------- Contacto ---------- */
+.cta-lead {
+  margin: 0 0 32px;
+  font-size: 1.2rem;
+  max-width: 30rem;
+}
+.addr {
+  font-style: normal;
+  background: var(--ink);
+  color: var(--paper);
+  border-radius: 16px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.addr-label {
+  margin: 0 0 4px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.addr-name {
+  margin: 0;
+  font-family: var(--display);
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  line-height: 1.15;
+}
+.addr-line { margin: 4px 0 0; }
+.addr-muted { margin: 4px 0 0; color: var(--muted); }
+.addr-phone {
+  margin: 0;
+  font-family: var(--display);
+  font-size: 1.5rem;
+  line-height: 1.15;
+}
+
+/* ---------- Pie ---------- */
+.site-footer { border-top: 1px solid var(--line); }
+.footer-inner {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 28px 24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 12px;
+  color: #A9B0B8;
+  font-size: 0.95rem;
+}
+
+/* ---------- Página 404 ---------- */
+.nf { min-height: 60vh; }
+.nf-title {
+  margin: 0 0 20px;
+  font-family: var(--display);
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: clamp(2rem, 6vw, 3.5rem);
+  line-height: 1;
+  max-width: 16ch;
+}
+.nf-text { margin: 0 0 32px; max-width: 30rem; color: var(--muted); }

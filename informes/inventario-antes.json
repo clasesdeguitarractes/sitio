@@ -1,0 +1,245 @@
+{
+  "archivo": "antes/Main.dc.html",
+  "lang": "es",
+  "title": "Clases de Guitarra en Corrientes",
+  "title_len": 32,
+  "meta_description": null,
+  "meta_description_len": 0,
+  "viewport": null,
+  "robots_meta": null,
+  "canonical": null,
+  "og": {},
+  "twitter": {},
+  "jsonld_blocks": 0,
+  "headings": [
+    {
+      "nivel": 1,
+      "texto": "Clases de guitarra en Corrientes"
+    },
+    {
+      "nivel": 2,
+      "texto": "Elegí tu instrumento o tu camino"
+    },
+    {
+      "nivel": 3,
+      "texto": "Guitarra"
+    },
+    {
+      "nivel": 3,
+      "texto": "Bajo"
+    },
+    {
+      "nivel": 3,
+      "texto": "Ukelele"
+    },
+    {
+      "nivel": 3,
+      "texto": "Teoría musical"
+    },
+    {
+      "nivel": 3,
+      "texto": "Composición musical"
+    },
+    {
+      "nivel": 3,
+      "texto": "Composición de canciones"
+    },
+    {
+      "nivel": 2,
+      "texto": "A tu ritmo, solo o en grupo"
+    },
+    {
+      "nivel": 3,
+      "texto": "Clases individuales"
+    },
+    {
+      "nivel": 3,
+      "texto": "Clases grupales"
+    },
+    {
+      "nivel": 3,
+      "texto": "Todas las edades"
+    },
+    {
+      "nivel": 2,
+      "texto": "Gonzalo Corrales"
+    },
+    {
+      "nivel": 2,
+      "texto": "Reservá tu lugar"
+    }
+  ],
+  "h1_count": 1,
+  "heading_jumps": [],
+  "links": [
+    {
+      "href": "#inicio",
+      "texto": "Clases de Guitarra Corrientes",
+      "aria-label": null
+    },
+    {
+      "href": "#clases",
+      "texto": "Clases",
+      "aria-label": null
+    },
+    {
+      "href": "#modalidades",
+      "texto": "Modalidades",
+      "aria-label": null
+    },
+    {
+      "href": "#como-empezar",
+      "texto": "Cómo empezar",
+      "aria-label": null
+    },
+    {
+      "href": "#contacto",
+      "texto": "Contacto",
+      "aria-label": null
+    },
+    {
+      "href": "https://wa.me/5493794870266",
+      "texto": "WhatsApp",
+      "aria-label": null
+    },
+    {
+      "href": "https://wa.me/5493794870266?text=Hola!%20Quiero%20info%20sobre%20las%20clases",
+      "texto": "Escribinos por WhatsApp",
+      "aria-label": null
+    },
+    {
+      "href": "#clases",
+      "texto": "Ver las clases",
+      "aria-label": null
+    },
+    {
+      "href": "https://wa.me/5493794870266?text=Hola!%20Quiero%20info%20sobre%20las%20clases",
+      "texto": "Escribir por WhatsApp",
+      "aria-label": null
+    },
+    {
+      "href": "tel:+543794870266",
+      "texto": "Llamar al 379 487-0266",
+      "aria-label": null
+    }
+  ],
+  "anchors_rotas": [
+    "#como-empezar"
+  ],
+  "img_total": 0,
+  "img_sin_alt": 0,
+  "svg_decorativos": 1,
+  "svg_total": 1,
+  "style_attr_count": 110,
+  "style_attr_distintos": 58,
+  "placeholders_plantilla": 15,
+  "css_externo": [
+    "https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Archivo+Black&display=swap"
+  ],
+  "js_src": [
+    "./vendor/react.js",
+    "./vendor/react-dom.js",
+    "./support.js"
+  ],
+  "render_cliente": true,
+  "landmarks": {
+    "header": 1,
+    "nav": 1,
+    "main": 0,
+    "footer": 1,
+    "address": 1,
+    "section": 5
+  },
+  "tags_desbalanceados": [
+    "<div> abierto en línea 128 sin cerrar antes de </section> (línea 163)"
+  ],
+  "texto_visible_chars": 2671,
+  "texto_bracket_placeholders": [],
+  "terminos": {
+    "clases de guitarra en Corrientes": true,
+    "profesor de guitarra": false,
+    "clases de bajo": false,
+    "clases de ukelele": false,
+    "clases de música": false,
+    "teoría musical": true,
+    "composición musical": true,
+    "composición de canciones": true,
+    "clases individuales": true,
+    "clases grupales": true,
+    "todas las edades": true,
+    "niños": false,
+    "Corrientes Capital": true,
+    "Camba Cuá": true,
+    "Gonzalo Corrales": true
+  },
+  "checks": [
+    {
+      "estado": "PASS",
+      "detalle": "html lang = es"
+    },
+    {
+      "estado": "FAIL",
+      "detalle": "meta viewport AUSENTE"
+    },
+    {
+      "estado": "PASS",
+      "detalle": "title 32 car.: 'Clases de Guitarra en Corrientes'"
+    },
+    {
+      "estado": "FAIL",
+      "detalle": "meta description 0 car. (ausente)"
+    },
+    {
+      "estado": "FAIL",
+      "detalle": "canonical: None"
+    },
+    {
+      "estado": "FAIL",
+      "detalle": "og:* (0 etiquetas)"
+    },
+    {
+      "estado": "WARN",
+      "detalle": "twitter:* (0 etiquetas)"
+    },
+    {
+      "estado": "FAIL",
+      "detalle": "JSON-LD: 0 bloque(s)"
+    },
+    {
+      "estado": "PASS",
+      "detalle": "H1: 1"
+    },
+    {
+      "estado": "PASS",
+      "detalle": "jerarquía de encabezados sin saltos"
+    },
+    {
+      "estado": "FAIL",
+      "detalle": "anclas internas rotas: #como-empezar"
+    },
+    {
+      "estado": "FAIL",
+      "detalle": "HTML mal anidado: <div> abierto en línea 128 sin cerrar antes de </section> (línea 163)"
+    },
+    {
+      "estado": "WARN",
+      "detalle": "landmark <main>: 0"
+    },
+    {
+      "estado": "WARN",
+      "detalle": "contenido renderizado por JS en el cliente (x-dc + react)"
+    },
+    {
+      "estado": "WARN",
+      "detalle": "CSS externo: ['https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Archivo+Black&display=swap']"
+    },
+    {
+      "estado": "WARN",
+      "detalle": "style=\"\" en línea: 110 (58 distintos)"
+    },
+    {
+      "estado": "PASS",
+      "detalle": "placeholders [..] visibles: []"
+    }
+  ]
+}

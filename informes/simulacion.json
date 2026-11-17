@@ -1,0 +1,342 @@
+{
+  "375": {
+    "antes": {
+      "overflowX": false,
+      "scrollWidth": 375,
+      "pageHeight": 5936,
+      "fontOk": true,
+      "heroHeight": 883,
+      "h1Lines": 4,
+      "heroPLines": 3,
+      "h2Lines": {
+        "clases": 3,
+        "modalidades": 3,
+        "info": 2,
+        "contacto": 2
+      },
+      "h3Lines_clases": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "cardsHeight_clases": [
+        237,
+        211,
+        211,
+        211,
+        237,
+        211
+      ],
+      "addressHeight": 275,
+      "headingsOverflow": [],
+      "tapTargetsLt44": [],
+      "terminos": {
+        "clases de guitarra en Corrientes": true,
+        "profesor de guitarra": false,
+        "clases de bajo": false,
+        "clases de ukelele": false,
+        "clases de música": false,
+        "teoría musical": true,
+        "composición musical": true,
+        "composición de canciones": true,
+        "clases individuales": true,
+        "clases grupales": true,
+        "todas las edades": true,
+        "niños": false,
+        "Corrientes Capital": true,
+        "Camba Cuá": true,
+        "Gonzalo Corrales": true
+      }
+    },
+    "simulada": {
+      "overflowX": false,
+      "scrollWidth": 375,
+      "pageHeight": 6043,
+      "fontOk": true,
+      "heroHeight": 883,
+      "h1Lines": 4,
+      "heroPLines": 3,
+      "h2Lines": {
+        "clases": 3,
+        "modalidades": 3,
+        "info": 2,
+        "contacto": 2
+      },
+      "h3Lines_clases": [
+        2,
+        1,
+        2,
+        1,
+        2,
+        2
+      ],
+      "cardsHeight_clases": [
+        264,
+        211,
+        237,
+        211,
+        237,
+        211
+      ],
+      "addressHeight": 329,
+      "headingsOverflow": [],
+      "tapTargetsLt44": [],
+      "terminos": {
+        "clases de guitarra en Corrientes": true,
+        "profesor de guitarra": true,
+        "clases de bajo": true,
+        "clases de ukelele": true,
+        "clases de música": true,
+        "teoría musical": true,
+        "composición musical": true,
+        "composición de canciones": true,
+        "clases individuales": true,
+        "clases grupales": true,
+        "todas las edades": true,
+        "niños": true,
+        "Corrientes Capital": true,
+        "Camba Cuá": true,
+        "Gonzalo Corrales": true
+      }
+    },
+    "errores_consola": []
+  },
+  "768": {
+    "antes": {
+      "overflowX": false,
+      "scrollWidth": 768,
+      "pageHeight": 3937,
+      "fontOk": true,
+      "heroHeight": 738,
+      "h1Lines": 4,
+      "heroPLines": 2,
+      "h2Lines": {
+        "clases": 3,
+        "modalidades": 2,
+        "info": 2,
+        "contacto": 2
+      },
+      "h3Lines_clases": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "cardsHeight_clases": [
+        211,
+        211,
+        211,
+        211,
+        237,
+        237
+      ],
+      "addressHeight": 275,
+      "headingsOverflow": [],
+      "tapTargetsLt44": [
+        [
+          "Clases de Guitarra Corrientes",
+          355,
+          26
+        ]
+      ],
+      "terminos": {
+        "clases de guitarra en Corrientes": true,
+        "profesor de guitarra": false,
+        "clases de bajo": false,
+        "clases de ukelele": false,
+        "clases de música": false,
+        "teoría musical": true,
+        "composición musical": true,
+        "composición de canciones": true,
+        "clases individuales": true,
+        "clases grupales": true,
+        "todas las edades": true,
+        "niños": false,
+        "Corrientes Capital": true,
+        "Camba Cuá": true,
+        "Gonzalo Corrales": true
+      }
+    },
+    "simulada": {
+      "overflowX": false,
+      "scrollWidth": 768,
+      "pageHeight": 3963,
+      "fontOk": true,
+      "heroHeight": 738,
+      "h1Lines": 4,
+      "heroPLines": 2,
+      "h2Lines": {
+        "clases": 3,
+        "modalidades": 2,
+        "info": 2,
+        "contacto": 2
+      },
+      "h3Lines_clases": [
+        2,
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "cardsHeight_clases": [
+        237,
+        237,
+        211,
+        211,
+        237,
+        237
+      ],
+      "addressHeight": 329,
+      "headingsOverflow": [],
+      "tapTargetsLt44": [
+        [
+          "Clases de Guitarra Corrientes",
+          355,
+          26
+        ]
+      ],
+      "terminos": {
+        "clases de guitarra en Corrientes": true,
+        "profesor de guitarra": true,
+        "clases de bajo": true,
+        "clases de ukelele": true,
+        "clases de música": true,
+        "teoría musical": true,
+        "composición musical": true,
+        "composición de canciones": true,
+        "clases individuales": true,
+        "clases grupales": true,
+        "todas las edades": true,
+        "niños": true,
+        "Corrientes Capital": true,
+        "Camba Cuá": true,
+        "Gonzalo Corrales": true
+      }
+    },
+    "errores_consola": []
+  },
+  "1280": {
+    "antes": {
+      "overflowX": false,
+      "scrollWidth": 1280,
+      "pageHeight": 3744,
+      "fontOk": true,
+      "heroHeight": 911,
+      "h1Lines": 4,
+      "heroPLines": 2,
+      "h2Lines": {
+        "clases": 3,
+        "modalidades": 2,
+        "info": 1,
+        "contacto": 2
+      },
+      "h3Lines_clases": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "cardsHeight_clases": [
+        211,
+        211,
+        211,
+        211,
+        211,
+        211
+      ],
+      "addressHeight": 248,
+      "headingsOverflow": [],
+      "tapTargetsLt44": [
+        [
+          "Clases de Guitarra Corrientes",
+          355,
+          26
+        ]
+      ],
+      "terminos": {
+        "clases de guitarra en Corrientes": true,
+        "profesor de guitarra": false,
+        "clases de bajo": false,
+        "clases de ukelele": false,
+        "clases de música": false,
+        "teoría musical": true,
+        "composición musical": true,
+        "composición de canciones": true,
+        "clases individuales": true,
+        "clases grupales": true,
+        "todas las edades": true,
+        "niños": false,
+        "Corrientes Capital": true,
+        "Camba Cuá": true,
+        "Gonzalo Corrales": true
+      }
+    },
+    "simulada": {
+      "overflowX": false,
+      "scrollWidth": 1280,
+      "pageHeight": 3744,
+      "fontOk": true,
+      "heroHeight": 911,
+      "h1Lines": 4,
+      "heroPLines": 2,
+      "h2Lines": {
+        "clases": 3,
+        "modalidades": 2,
+        "info": 1,
+        "contacto": 2
+      },
+      "h3Lines_clases": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "cardsHeight_clases": [
+        211,
+        211,
+        211,
+        211,
+        211,
+        211
+      ],
+      "addressHeight": 248,
+      "headingsOverflow": [],
+      "tapTargetsLt44": [
+        [
+          "Clases de Guitarra Corrientes",
+          355,
+          26
+        ]
+      ],
+      "terminos": {
+        "clases de guitarra en Corrientes": true,
+        "profesor de guitarra": true,
+        "clases de bajo": true,
+        "clases de ukelele": true,
+        "clases de música": true,
+        "teoría musical": true,
+        "composición musical": true,
+        "composición de canciones": true,
+        "clases individuales": true,
+        "clases grupales": true,
+        "todas las edades": true,
+        "niños": true,
+        "Corrientes Capital": true,
+        "Camba Cuá": true,
+        "Gonzalo Corrales": true
+      }
+    },
+    "errores_consola": []
+  },
+  "requests_bloqueados": []
+}
