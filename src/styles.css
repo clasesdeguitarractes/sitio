@@ -353,6 +353,8 @@ a:hover { color: var(--accent); }
 }
 .addr-line { margin: 4px 0 0; }
 .addr-muted { margin: 4px 0 0; color: var(--muted); }
+.addr-link { margin: 10px 0 0; }
+.addr-link a { color: var(--accent); font-weight: 500; text-decoration: underline; text-underline-offset: 3px; }
 .addr-phone {
   margin: 0;
   font-family: var(--display);
