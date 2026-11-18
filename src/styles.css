@@ -150,7 +150,8 @@ a:hover { color: var(--accent); }
 }
 .container-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /* min(): en pantallas de 320 px el ancho útil es 272 px; sin esto la columna se sale */
+  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
   gap: 48px;
 }
 .container-grid-end { align-items: end; }
@@ -196,7 +197,7 @@ a:hover { color: var(--accent); }
 }
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
   gap: 20px;
 }
 
@@ -354,7 +355,15 @@ a:hover { color: var(--accent); }
 .addr-line { margin: 4px 0 0; }
 .addr-muted { margin: 4px 0 0; color: var(--muted); }
 .addr-link { margin: 10px 0 0; }
-.addr-link a { color: var(--accent); font-weight: 500; text-decoration: underline; text-underline-offset: 3px; }
+.addr-link a {
+  display: inline-block;
+  padding: 12px 0; /* objetivo táctil de 44 px */
+  margin: -12px 0;
+  color: var(--accent);
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
 .addr-phone {
   margin: 0;
   font-family: var(--display);
@@ -375,6 +384,14 @@ a:hover { color: var(--accent); }
   color: #A9B0B8;
   font-size: 0.95rem;
 }
+.footer-credit a {
+  display: inline-block;
+  padding: 12px 0; /* objetivo táctil de 44 px */
+  margin: -12px 0;
+  color: var(--paper);
+  text-underline-offset: 3px;
+}
+.footer-credit a:hover { color: var(--accent); }
 
 /* ---------- Página 404 ---------- */
 .nf { min-height: 60vh; }
